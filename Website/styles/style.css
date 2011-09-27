@@ -4,8 +4,6 @@
 	margin: 50px auto;
 }
 
-
-
 #header {
 	position: fixed; 
 	top: 0; left: 0; 
@@ -13,8 +11,16 @@
 	height: 40px;
 	background: black; 
 	padding: 5px;
+	font-size: 18px;
+	font-color: white;
+	z-index:100000;
 }
 
+#header a {
+	color: white;
+	font-size: 18px;
+	margin-right: 5px;
+}
 
 .sectionone {
 	/*border: 1px solid red;*/
@@ -30,7 +36,6 @@
 	background-color:blue;
 }
 
-
 .sectionthree {
 	/*border: 1px solid red;*/
 	width:100%;
@@ -38,14 +43,12 @@
 	background-color:green;
 	}
 
-
 .sectionfour {
 /*border: 1px solid red;*/
 width:100%;
 min-height:1000px;
 background-color:yellow;
 }
-
 
 .sectionfive {
 	/*border: 1px solid red;*/
@@ -61,7 +64,6 @@ background-color:yellow;
 	background-color:teal;
 }
 
-
 .content1 {
 	width:600px;
 	height:600px;
@@ -69,31 +71,13 @@ background-color:yellow;
 	margin: 0 auto;
 }
 
-
-
-h1 {
-
-	font-size: 50px;
-	border: 1px solid red;
-
-}
-
-
-
-
-
 #test {
-
 	border: 1px solid red;
 	width: 300px;
 	padding-top: 200px;
 	margin: 0 auto
-
-
 }
 
-#header a {
-	color: white;
-	font-size: 18px;
-	margin-right: 5px;
+#gallery {
+	height:467px
 }
