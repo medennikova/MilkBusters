@@ -1,0 +1,99 @@
+#page-wrap {
+	width:100%;
+	min-height: 1000px;
+	margin: 50px auto;
+}
+
+
+
+#header {
+	position: fixed; 
+	top: 0; left: 0; 
+	width: 100%; 
+	height: 50px;
+	background: black; 
+	padding: 5px;
+}
+
+
+.sectionone {
+	/*border: 1px solid red;*/
+	width:100%;
+	height:900PX;
+	background-color:red;
+}
+
+.sectiontwo {
+	/*border: 1px solid red;*/
+	width:100%;
+	min-height:1000px;
+	background-color:blue;
+}
+
+
+.sectionthree {
+	/*border: 1px solid red;*/
+	width:100%;
+	min-height:1000px;
+	background-color:green;
+	}
+
+
+.sectionfour {
+/*border: 1px solid red;*/
+width:100%;
+min-height:1000px;
+background-color:yellow;
+}
+
+
+.sectionfive {
+	/*border: 1px solid red;*/
+	width:100%;
+	min-height:1000px;
+	background-color:gray;
+}
+
+.sectionsix {
+	/*border: 1px solid red;*/
+	width:100%;
+	min-height:1000px;
+	background-color:teal;
+}
+
+
+.content1 {
+	width:600px;
+	height:600px;
+	background-color:teal;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+
+	font-size: 50px;
+	border: 1px solid red;
+
+}
+
+
+
+
+
+#test {
+
+	border: 1px solid red;
+	width: 300px;
+	padding-top: 200px;
+	margin: 0 auto
+
+
+}
+
+#header a {
+	color: white;
+	font-size: 18px;
+	margin-right: 5px;
+}
