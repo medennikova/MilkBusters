@@ -16,7 +16,9 @@
 	<script src='scripts/galleria/galleria-1.2.5.min.js'></script>
 	<script src="scripts/galleria/themes/classic/galleria.classic.min.js"></script>
 	<script src='scripts/galleria/plugins/flickr/galleria.flickr.min.js'></script>
-
+	
+	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	
 	<script src="scripts/test.js"></script>
 		
 	
@@ -33,6 +35,38 @@
 
 		<div class="sectiontwo" id="tweets">
 			<div id='gallery'>
+			</div>
+			<div id='twitterfeed'>
+				<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'profile',
+				  rpp: 7,
+				  interval: 30000,
+				  width: 230,
+				  height: 400,
+				  theme: {
+				    shell: {
+				      background: '#000000',
+				      color: '#ffffff'
+				    },
+				    tweets: {
+				      background: '#000000',
+				      color: '#ffffff',
+				      links: '#a8d7dd'
+				    }
+				  },
+				  features: {
+				    scrollbar: false,
+				    loop: false,
+				    live: true,
+				    hashtags: true,
+				    timestamp: true,
+				    avatars: false,
+				    behavior: 'all'
+				  }
+				}).render().setUser('MilkBusters').start();
+				</script>
 			</div>
 		</div>
 

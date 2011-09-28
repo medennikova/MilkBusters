@@ -36,6 +36,13 @@
 	background-color:blue;
 }
 
+#twitterfeed {
+	padding-left: 0px;
+	padding-top: 0px;
+	z-index: 80000;
+	
+}
+
 .sectionthree {
 	/*border: 1px solid red;*/
 	min-height:1000px;
@@ -95,3 +102,5 @@ background-color:yellow;
 #gallery {
 	height:467px
 }
+
+
