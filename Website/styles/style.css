@@ -5,7 +5,7 @@
 }
 
 #header {
-	position: fixed; 
+	position: fixed;
 	top: 0; left: 0; 
 	width: 100%; 
 	height: 40px;
@@ -38,10 +38,24 @@
 
 .sectionthree {
 	/*border: 1px solid red;*/
-	width:100%;
 	min-height:1000px;
 	background-color:green;
-	}
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 200px;
+}
+
+#victims { 
+	float: left
+}
+
+#thieves {
+	float: right
+}
+
+.clear { 
+	clear: both;
+}
 
 .sectionfour {
 /*border: 1px solid red;*/
